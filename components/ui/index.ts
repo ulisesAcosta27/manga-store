@@ -1,0 +1,9 @@
+export { Navbar } from "./Navbar";
+export { SlideMenu } from "./SlideMenu";
+export { InfoNavbar } from "./InfoNavbar";
+export { Footer } from "./Footer";
+export { Filters } from "./Filters";
+export { BannerCollections } from "./BannerCollections";
+export { LogosList } from './LogosList'
+export { Suscribe } from "./Suscribe";
+export { Hero } from "./Hero";
