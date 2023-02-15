@@ -20,3 +20,12 @@ export interface ICreateProduct {
   category: string;
   imgUrl: string;
 }
+
+export interface IUploadImage {
+  lastModified: number
+  lastModifiedDate: any
+  name: string
+  size: number
+  type: string
+  webKitRelativePath: string
+}

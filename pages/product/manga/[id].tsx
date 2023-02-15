@@ -8,7 +8,7 @@ import { IProduct, IProducts } from "@/interfaces";
 import Image from "next/image";
 import Link from "next/link";
 import { IoHeartOutline } from 'react-icons/io5'
-import { TableProduct } from "@/components/products";
+import { ProductList, ProductsDataExtra, TableProduct } from "@/components/products";
 
 interface Props {
   product: IProduct;
@@ -40,7 +40,9 @@ const MangaInfo: NextPage<Props> = ({ product }) => {
                 Home/
               </Link>
               <Link href={"/collections/mangas"} passHref>
-                {product.category.replace(/(^\w{1})|(\s+\w{1})/g, letra => letra.toUpperCase())}
+                {product.category.replace(/(^\w{1})|(\s+\w{1})/g, (letra) =>
+                  letra.toUpperCase()
+                )}
               </Link>
             </p>
             <p className="text-sm font-semibold text-gray-400">
@@ -75,6 +77,8 @@ const MangaInfo: NextPage<Props> = ({ product }) => {
           </div>
         </div>
       </div>
+      <ProductsDataExtra />
+      <ProductList />
     </ShopLayout>
   );
 };
@@ -94,6 +98,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     _id: data._id,
     name: data.name,
     price: data.price,
+    tags: data.tags,
     author: data.author || "Gege Akutami",
     category: data.category,
     description: data.description,

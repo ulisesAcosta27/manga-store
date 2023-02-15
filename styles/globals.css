@@ -57,3 +57,40 @@
 .global-input-big {
   @apply  border border-gray-400 rounded-md my-1 py-1 px-4 h-20
 }
+
+.button-form-image {
+  @apply w-full
+    block
+    px-3
+    py-1.5
+    text-base
+    font-normal
+    text-gray-700
+    bg-white bg-clip-padding
+    border border-solid border-gray-300
+    rounded
+    transition
+    ease-in-out
+    m-0
+    focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none
+}
+
+.global-input-address {
+  @apply rounded-full border border-gray-400 w-full h-9 px-4
+}
+
+.global-div-address {
+  @apply flex flex-col  py-2
+}
+
+.global-label-address {
+  @apply pl-4
+}
+
+.global-div-summary {
+  @apply flex items-center justify-between
+}
+
+.global-button-summary {
+  @apply w-full flex justify-center my-2 border shadow-md rounded-md
+}

@@ -28,19 +28,20 @@ export const Navbar: FC = () => {
         <div className="flex">
           <Link href={"/users"}>
             <div className="flex items-center p-2">
-              <IoPersonOutline size={20} />
-              <p className="pl-1 ">Cuenta</p>
+              <IoCartOutline size={20} />
+              <p className="pl-1">Carrito</p>
             </div>
           </Link>
 
           <Link href={"/users"}>
             <div className="flex items-center p-2">
-              <IoCartOutline size={20} />
-              <p className="pl-1">Carrito</p>
+              <IoPersonOutline size={20} />
+              <p className="pl-1 ">Cuenta</p>
             </div>
           </Link>
         </div>
       </div>
+      {/* SlideMenu */}
       {/* <SlideMenu /> */}
     </div>
   );

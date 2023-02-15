@@ -23,6 +23,7 @@ module.exports = {
         'banner-manga': 'url(../common/manga-banner.jpg)',
         'banner-novel': 'url(../common/novels.jpg)',
         'banner-figure': 'url(../common/figure.jpg)',
+        'banner-popular-series': 'url(../common/popular-series.jpg)',
       })
     },
   },

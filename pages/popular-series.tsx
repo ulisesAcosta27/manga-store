@@ -18,7 +18,7 @@ const PopularSeries: NextPage<Props> = ({ series }) => {
       name="Manga Store - Popular Series"
       description="Encuentras todas los mangas mas relevante de la estacion de verano"
     >
-      <BannerCollections name="POPULAR SERIES" imgBanner="" />
+      <BannerCollections name="POPULAR SERIES" imgBanner="bg-banner-popular-series" />
       <div className="container mx-auto my-10">
         <div className="py-4 px-10 flex flex-wrap items-center justify-around">
           {series.map(({ _id, imgUrl, name }) => (

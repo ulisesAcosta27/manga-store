@@ -5,4 +5,4 @@ export type { userAuthSuccess } from "./userAuthSuccess";
 export type { IDataLinksFooter } from "./dataLinksFooter";
 export type { IProducts, IFormatProducts } from "./products";
 export type { ISeries, IFormatSeries } from "./series";
-export type { IProduct, ICreateProduct } from "./product";
+export type { IProduct, ICreateProduct, IUploadImage } from "./product";

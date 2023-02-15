@@ -5,6 +5,7 @@ import { ICreateProduct } from "@/interfaces";
 import { Form } from "@/libs";
 
 const ProductPageAdmin: NextPage = () => {
+  type evenInputChange = ChangeEvent<HTMLInputElement & HTMLTextAreaElement>;
   const [createProduct, setCreateProduct] = useState<ICreateProduct>({
     name: "",
     author: "",
@@ -17,9 +18,8 @@ const ProductPageAdmin: NextPage = () => {
     price: 0,
   });
 
-  const handleInputChange = (
-    event: ChangeEvent<HTMLInputElement & HTMLTextAreaElement>
-  ) => {
+
+  const handleInputChange = (event: evenInputChange) => {
     const { name, value } = event.target;
     setCreateProduct((prevProps) => ({
       ...prevProps,
@@ -118,8 +118,7 @@ const ProductPageAdmin: NextPage = () => {
                 className="global-input-big"
                 value={createProduct.tags}
                 onChange={handleInputChange}
-              >
-              </textarea>
+              ></textarea>
             </div>
 
             <div className="container-input">
@@ -133,12 +132,12 @@ const ProductPageAdmin: NextPage = () => {
               />
             </div>
             <div className="container-input">
-              <label className="global-label">Imagen</label>
+              <label className="inline-block mb-2 text-gray-700">Imagen</label>
               <input
-                type="text"
+                type="file"
                 name="imgUrl"
-                className="global-input"
-                value={createProduct.imgUrl}
+                className="button-form-image"
+                defaultValue={createProduct.imgUrl}
                 onChange={handleInputChange}
               />
             </div>
