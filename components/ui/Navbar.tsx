@@ -20,9 +20,13 @@ export const Navbar: FC = () => {
           <input
             type="text"
             className="bg-gray-100 rounded-full h-[2.5rem] w-[32rem] px-6"
-            placeholder="Busca tu producto favorito"
+            placeholder="Busca tus productos favoritos"
           />
-          <IoSearch size={22} className='text-gray-400 absolute top-2 right-6' />
+          <IoSearch
+            size={22}
+            className="text-gray-400 absolute top-2 right-6"
+          />
+          {/* <div className="h-[20rem] w-[32rem] bg-white absolute top-12 rounded-md z-10"></div> */}
         </div>
 
         <div className="flex">

@@ -16,9 +16,9 @@ export const Hero: FC = () => {
         }}
         className="flex items-center justify-center flex-col"
       >
-        <p className="text-lg">UP TO 60% OFF</p>
-        <h1 className="text-5xl font-bold">CLEARANCE ITEMS!</h1>
-        <p className="text-lg">You wont find these products cheaper!</p>
+        <p className="text-lg">HASTA UN 60% DE DESCUENTO</p>
+        <h1 className="text-5xl font-bold">¡ARTÍCULOS EN LIQUIDACIÓN!</h1>
+        <p className="text-lg">¡No encontrará estos productos más baratos!</p>
         <Link
           href={"/"}
           passHref

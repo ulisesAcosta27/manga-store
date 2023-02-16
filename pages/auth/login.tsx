@@ -34,7 +34,7 @@ const Login: NextPage = () => {
     });
 
   return (
-    <AuthLayout name="Login - Manga Store">
+    <AuthLayout name="Manga Store - Login">
       <h1 className="tittle-auth">Login</h1>
 
       <form
@@ -67,7 +67,7 @@ const Login: NextPage = () => {
             name="password"
             id="password"
             className="input-input"
-            placeholder="una contrasela segura"
+            placeholder="una contraseña segura"
             onChange={handleChange}
             value={values.password}
           />

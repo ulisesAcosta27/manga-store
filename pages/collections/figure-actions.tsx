@@ -14,10 +14,10 @@ interface Props {
 const FiguraActions: NextPage<Props> = ({ products }) => {
   return (
     <ShopLayout
-      name="Manga Store - Mangas"
+      name="Manga Store - Figuras de Acción"
       description="Aqui puedes encontra todas nuesta conleccion de mangas"
     >
-      <BannerCollections name="FIGURES ACTIONS" imgBanner="bg-banner-figure" />
+      <BannerCollections name="FIGURAS DE ACCIÓN" imgBanner="bg-banner-figure" />
       <div className="container mx-auto">
         <div className="w-full flex items-center py-4 justify-around flex-wrap">
           {products.map(({ _id, name, imgUrl, price, seller }) => (

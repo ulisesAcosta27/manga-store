@@ -4,23 +4,23 @@ import Link from "next/link";
 
 export const Footer: FC = () => {
   const aboutUs: IDataLinksFooter[] = [
-    { id: 1, name: "About Us", link: "about-us" },
-    { id: 2, name: "Contact Us", link: "contact-us" },
-    { id: 3, name: "Pre-Order Estimates", link: "pre-order-estimates" },
+    { id: 2, name: "Contáctanos", link: "contact-us" },
+    { id: 1, name: "Sobre Nosotros", link: "about-us" },
     {
       id: 4,
-      name: "Frequently Asked Questions",
+      name: "Preguntas frecuentes",
       link: "frequently-asked-questions",
     },
-    { id: 5, name: "Gift Cards", link: "Gift-Cards" },
+    { id: 5, name: "Tarjetas de descuentos", link: "Gift-Cards" },
+    { id: 3, name: "Estimaciones de pre-pedidos", link: "pre-order-estimates" },
   ];
 
   const policyAndTerm: IDataLinksFooter[] = [
-    { id: 2, name: "Privacy Policy", link: "privacy-policy" },
-    { id: 4, name: "Terms of Service", link: "terms-of-service" },
-    { id: 1, name: "Delivery Process", link: "delivery-process" },
+    { id: 2, name: "Política de privacidad", link: "privacy-policy" },
+    { id: 4, name: "Condiciones del servicio", link: "terms-of-service" },
+    { id: 1, name: "Proceso de entrega", link: "delivery-process" },
     { id: 5, name: "Blind Box Manga", link: "blind-box-manga" },
-    { id: 3, name: "Refund Policy", link: "refund-policy" },
+    { id: 3, name: "Política de reembolso", link: "refund-policy" },
   ];
 
   const SocialMedias: IDataLinksFooter[] = [

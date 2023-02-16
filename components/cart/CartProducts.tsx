@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react'
 
 const IMAGE =
-  "https://res.cloudinary.com/dz6225u4u/image/upload/v1674492854/replit/zeadtum723f7intvdjyy.png";
+  "https://res.cloudinary.com/dz6225u4u/image/upload/v1674494043/replit/vxeevcyu1bhnx5ouyjeh.png";
 
 export const CartProducts = () => {
   return (
@@ -12,14 +12,14 @@ export const CartProducts = () => {
           <Image src={IMAGE} alt="" width={100} height={100} />
         </div>
         <div className="p-4 col-span-3 flex flex-col justify-center">
-          <h5 className="text-xl font-bold pb-2">One Punch Man Vol. 23</h5>
+          <h5 className="text-xl font-bold pb-2">Jujutsu Kaisen Vol. 8</h5>
           <div className="flex font-light pb-1">
             <p className="font-bold">Editorial:</p>
             <h5 className="pl-2">VIZ</h5>
           </div>
           <div className="flex font-light pb-1">
             <p className="font-bold">Precio unitario:</p>
-            <h5 className="pl-2">$2500</h5>
+            <h5 className="pl-2">$2,800.00</h5>
           </div>
           <div className="flex font-light pb-1">
             <p className="font-bold">Cantidad producto(s):</p>

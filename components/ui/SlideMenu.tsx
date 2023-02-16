@@ -6,10 +6,10 @@ import { FaTiktok } from "react-icons/fa";
 
 export const SlideMenu: FC = () => {
   return (
-    <div className="w-[26rem] h-[100vh] bg-white absolute top-0 right-0 shadow-2xl">
-    {/* <div className="w-[-100%] h-[100vh] bg-white absolute top-0 right-0 shadow-2xl"> */}
+    <div className="w-[26rem] h-[100vh] bg-white absolute top-0 right-0 shadow-2xl z-10">
+      {/* <div className="w-[-100%] h-[100vh] bg-white absolute top-0 right-0 shadow-2xl"> */}
       <div className="h-[100%]">
-      {/* <div className="h-[100%] hidden"> */}
+        {/* <div className="h-[100%] hidden"> */}
         <div className=" flex justify-end m-6 text-gray-500">
           <VscClose size={32} />
         </div>
@@ -20,19 +20,19 @@ export const SlideMenu: FC = () => {
               <p className="py-2 font-bold text-lg">MANGAS Y NOVELAS</p>
               <BsChevronUp size={20} className="text-black" />
             </div>
-            <p className="pb-1 pl-4 font-light">Mangas</p>
+            <p className="pb-1 pl-4 font-light underline">Mangas</p>
             <p className="py-1 pl-4 font-light">Novelas</p>
             <p className="py-1 pl-4 font-light">Libros de Arte</p>
-            <p className="py-1 pl-4 font-light">Juegos de libros</p>
+            <p className="py-1 pl-4 font-light">Colección de Libros</p>
           </div>
 
           <div className="flex justify-between items-center">
-            <p className="py-2 font-bold text-lg">FIGURAS DE ACCION</p>
+            <p className="py-2 font-bold text-lg"> FIGURAS DE ACCIÓN</p>
             <BsChevronDown size={20} className="text-black" />
           </div>
 
           <div className="flex justify-between items-center">
-            <p className="py-2 font-bold text-lg">LOS MAS COMPRADOS</p>
+            <p className="py-2 font-bold text-lg"> LOS MÁS COMPRADOS</p>
             <BsChevronDown size={20} className="text-black" />
           </div>
 

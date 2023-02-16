@@ -20,7 +20,7 @@ export const ProductsDataExtra: FC = () => {
       <div className="flex flex-col w-[25rem] items-center p-2">
         <TbMessages size={80} className="text-gray-500" />
         <p className="font-bold uppercase text-lg text-gray-500 pt-2">
-          Atencion al clientes siempre
+          Atención al cliente siempre
         </p>
       </div>
 

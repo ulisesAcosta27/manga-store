@@ -8,7 +8,9 @@ export const TableProduct: FC = () => {
           <td className="pl-6 py-1 border border-slate-300 font-bold">
             BOOK NAME
           </td>
-          <td className="pl-6 py-1 border border-slate-300">{"Marron"}</td>
+          <td className="pl-6 py-1 border border-slate-300">
+            {"Jujutsu Kaisen "}
+          </td>
         </tr>
         <tr>
           <td className="pl-6 py-1 border border-slate-300 font-bold">

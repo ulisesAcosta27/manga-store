@@ -20,42 +20,43 @@ const Address = () => {
               <input type="text" className="global-input-address" />
             </div>
             <div className="global-div-address">
-              <label className="global-label-address">Direccion</label>
+              <label className="global-label-address">Dirección</label>
               <input type="text" className="global-input-address" />
             </div>
             <div className="global-div-address">
               <label className="global-label-address">
-                Direccion 2 (Opcional)
+                Dirección 2 (Opcional)
               </label>
               <input type="text" className="global-input-address" />
             </div>
           </div>
           <div className="flex flex-col px-4">
             <div className="global-div-address">
-              <label className="global-label-address">Codigo Postal</label>
+              <label className="global-label-address">Código postal</label>
               <input type="text" className="global-input-address" />
             </div>
             <div className="global-div-address">
-              <label className="global-label-address">Cuidad</label>
+              <label className="global-label-address">Provincia</label>
               <input type="text" className="global-input-address" />
             </div>
             <div className="global-div-address">
-              <label className="global-label-address">Pais</label>
+              <label className="global-label-address">Ciudad</label>
               <input type="text" className="global-input-address" />
             </div>
             <div className="global-div-address">
-              <label className="global-label-address">Telefono</label>
+              <label className="global-label-address">Teléfono</label>
               <input type="text" className="global-input-address" />
             </div>
           </div>
         </div>
-        <p className="text-gray-500 text-sm p-4">
-          Desea guardad esta informacion
-        </p>
+        <div className="p-4 flex">
+          <input type="checkbox" />
+          <p className="text-gray-500 text-sm pl-1">
+            Desea guardar esta información
+          </p>
+        </div>
         <div className="w-full flex justify-center">
-          <button className="global-button px-4 text-lg">
-            Siguiente
-          </button>
+          <button className="global-button px-4 text-lg">Siguiente</button>
         </div>
       </div>
     </ShopLayout>

@@ -28,8 +28,8 @@ const Register: NextPage = () => {
   });
 
   return (
-    <AuthLayout name="Register - Manga Store">
-      <h1 className="tittle-auth">Register</h1>
+    <AuthLayout name="Manga Store - Register">
+      <h1 className="tittle-auth">Registrarse</h1>
 
       <form className="w-[28rem] m-4 shadow-lg p-4 flex flex-col justify-center" onSubmit={handleSubmit}>
         <div className="div-input">
@@ -71,7 +71,7 @@ const Register: NextPage = () => {
             name="password"
             id="password"
             className="input-input"
-            placeholder="una contrasela segura"
+            placeholder="una contraseña segura"
             onChange={handleChange}
             value={values.password}
           />

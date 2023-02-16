@@ -21,7 +21,7 @@ const MangaInfo: NextPage<Props> = ({ product }) => {
   }
   return (
     <ShopLayout
-      name="Manga Store - Mangas"
+      name={`Manga Store - ${product.name}`}
       description="Aqui puedes encontra todas nuesta conleccion de mangas"
     >
       <div className="container mx-auto grid grid-cols-2 grid-rows-2 my-8">
